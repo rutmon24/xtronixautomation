@@ -1,0 +1,129 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+	box-sizing: border-box;
+	background: linear-gradient(to right, #ff881f,  #3773da);
+
+}
+
+
+
+section {
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+h1, h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+h3 {
+    font-size: 24px;
+    margin: 10px 0;
+	color: #333;
+}
+.team-members p, .accordion-item p{
+	color: #333;
+}
+p {
+    font-size: 16px;
+    line-height: 1.6;
+    margin: 10px 0;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+ul li {
+    margin-bottom: 10px;
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+.team-members {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.team-member {
+    width: 30%;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.team-member img {
+    width: 180px;
+    height: 200px;
+    border-radius: 0 0 20px 20px;
+    border: 2px solid #ff881f;
+    margin-bottom: 10px;
+    box-shadow: 0 10px 10px rgb(0, 0, 0, .5);
+}
+
+.accordion {
+    width: 100%;
+}
+
+.accordion-item {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.accordion-header {
+    background-color: #f4f4f4;
+    border: none;
+    width: 100%;
+    text-align: left;
+    padding: 15px;
+    font-size: 18px;
+    cursor: pointer;
+    outline: none;
+}
+
+.accordion-content {
+    padding: 15px;
+    display: none;
+    border-top: 1px solid #ddd;
+}
+
+.accordion-content p {
+    margin: 0;
+}
+.why-choose-us .container{
+    border: 2px solid #010101;
+}
+
+@media (max-width: 768px) {
+    header nav ul {
+        flex-direction: column;
+    }
+
+    .team-members {
+        flex-direction: column;
+    }
+
+    .team-member {
+        width: 100%;
+    }
+
+    footer .footer-content {
+        flex-direction: column;
+    }
+}

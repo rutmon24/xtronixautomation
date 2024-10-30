@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - X-Tronix Automation</title>
+    <link rel="stylesheet" href="contactstyles.css">
+    <link rel="stylesheet" href="header.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <div class="logo">
+            <img src="hero photos/logo.png" alt="Logo">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html"><i class="fa fa-home"></i>Home</a></li>
+                <li><a href="about.html"><i class="fa fa-info"></i>About Us</a></li>
+                <li><a href="services.html"><i class="fa fa-tools"></i>Services</a></li>
+                <li><a href="project.html"><i class="fa fa-tasks"></i>Projects</a></li>
+                <li><a href="mission.html"><i class="fa fa-bullseye"></i>Mission</a></li>
+                <li><a href="vision.html"><i class="fa fa-eye"></i>Vision</a></li>
+                <li><a href="blog.html"><i class="fa fa-newspaper"></i>Blog</a></li>
+                <li><a href="contact.html"><i class="fa fa-comment"></i>Contact Us</a></li>
+            </ul>
+        </nav>
+        <div class="bars-button" id="barsButton">
+            <i class="fas fa-bars"></i>
+        </div>
+        <a href="contact.html" class="cta-button">Get a Quote</a>
+    </header>
+
+    <!-- Contact Section -->
+    <section class="contact">
+        <div class="container">
+            <h1><i class="fa fa-phone"></i>Contact Us</h1>
+            <p>We'd love to hear from you! Please fill out the form below and we'll get in touch with you as soon as possible.</p>
+            <div class="contact-form">
+                <form id="contactForm">
+                    <div class="form-group">
+                        <label for="name"><i class="fa fa-user"></i>Name</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email"><i class="fa fa-envelope"></i>Email</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="subject"><i class="fa fa-pen"></i>Subject</label>
+                        <input type="text" id="subject" name="subject" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message"><i class="fa fa-comment"></i>Message</label>
+                        <textarea id="message" name="message" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="submit-button">Send Message</button>
+                </form>
+            </div>
+            <div class="contact-info">
+                <h2><i class="fa fa-location-crosshairs"></i>Our Office</h2>
+                <p>123 Automation Lane, Tech City</p>
+                <p>(123) 456-7890</p>
+                <p>info@xtronixautomation.com</p>
+                <div class="map">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15741.418025542274!2d147.1489606!3d-9.4778618!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6902318c5434ed0d%3A0x4484637a6ddfd50a!2sMINERAL%20RESOURCES%20DEVELOPMENT%20COMPANY%20LTD!5e0!3m2!1sen!2spg!4v1729672613854!5m2!1sen!2spg" width="auto" height="auto" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <div class="footer-content">
+            <div class="quick-links">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="index.html"><i class="fa fa-home"></i>Home</a></li>
+                    <li><a href="about.html"><i class="fa fa-info"></i>About Us</a></li>
+                    <li><a href="services.html"><i class="fa fa-tools"></i>Services</a></li>
+                    <li><a href="project.html"><i class="fa fa-tasks"></i>Projects</a></li>
+                    <li><a href="mission.html"><i class="fa fa-bullseye"></i>Mission</a></li>
+                    <li><a href="vision.html"><i class="fa fa-eye"></i>Vision</a></li>
+                    <li><a href="blog.html"><i class="fa fa-newspaper"></i>Blog</a></li>
+                    <li><a href="contact.html"><i class="fa fa-comment"></i>Contact Us</a></li>
+                </ul>
+            </div>
+            <div class="contact-info">
+                <h3>Contact Info</h3>
+                <p>123 Automation Lane, Tech City</p>
+                <p>(123) 456-7890</p>
+                <p>info@xtronixautomation.com</p>
+            </div>
+            <div class="social-media">
+                <h3>Follow Us</h3>
+                <a href="#"><img src="icons/facebook.png" alt="Facebook"></a>
+                <a href="#"><img src="icons/twitter.png" alt="Twitter"></a>
+                <a href="#"><img src="icons/linkedin.png" alt="LinkedIn"></a>
+            </div>
+        </div>
+        <div class="rights">
+            <p>&copy; 2024 X-Tronix Automation. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="contactscript.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap" async defer></script>
+</body>
+
+</html>
